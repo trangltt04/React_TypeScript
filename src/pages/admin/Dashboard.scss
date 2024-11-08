@@ -1,0 +1,40 @@
+.dashboard {
+  .add-button {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 10px 15px;
+  }
+
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+
+    thead {
+      background-color: #dc3545;
+      color: white;
+    }
+
+    th,
+    td {
+      padding: 12px 15px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    tbody tr:hover {
+      background-color: #f8d7da;
+    }
+
+    .product-thumbnail {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .btn-danger {
+      margin-right: 10px;
+    }
+  }
+}
